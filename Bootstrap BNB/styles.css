@@ -1,0 +1,60 @@
+/* Stylesheet for BootstrapBNB Project 
+Author: Kofi 11/27/19
+*/
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	font-size: 24px;
+	padding-right: 50px;
+	font-weight: bold;
+	color: blue;
+	transition: color 1s;
+}
+
+.nav a:hover {
+	font-size: 40px;
+	text-decoration: none;
+	color: orange;
+}
+
+.nav{
+	background-color:thistle;
+}
+
+.jumbotron {
+	height: 720px;
+	background-image: url("vacation_home.jpg");
+	background-repeat: round;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	color: orange;
+	font-family: 'Volkhov', serif;
+
+}
+
+.jumbotron p {
+	font-size: 28px;
+}
+
+.jumbotron a {
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	transition: background-color 2s
+}
+
+.jumbotron a:hover {
+background-color: red; 
+}
+
+.learn-more {
+background-color: thistle;
+padding-top: 20px;
+}
